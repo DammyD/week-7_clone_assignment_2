@@ -395,50 +395,92 @@ main {
     background-color: #d9dfe6;
 }
 
-.third-segment {
+.first-segment {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
 .top-stories {
     display: grid;
-    grid-template-columns: auto auto;
-    margin-right: 40px;
+    grid-template-columns: 1fr 1fr;
     line-height: 24px;
     border-top: 1px solid grey;
-    border-right: 1px solid grey;
+    column-gap: 50px;
+    margin-right: 20px;
+}
+
+.subsection-one p,
+.marca-section-one p {
+    color: blue;
+    cursor: pointer;
 }
 
 .left-col-image {
     max-height: 30vh;
     border-radius: 20px;
 }
-.left-col-images {
-    max-height: 15vh;
-    border-radius: 20px;
-}
+
 .first-section {
     margin-top: 35px;
 }
 
+.subsection-one,
+.marca-section-one,
+.subsection-one button {
+    margin-top: 20px;
+}
+
+.subsection-two,
+.info {
+    margin-top: 50px;
+}
+
+.subsection-one button {
+    justify-content: center;
+        text-align: center;
+        border: 1px solid grey;
+        padding: 10px;
+        width: 25vw;
+        border-radius: 20px;
+        outline: none;
+        margin-left: 50%;
+}
+
+.marca-section-two {
+    margin-right: 20px;
+}
+
+.subsection-border {
+    border-right: 1px solid grey;
+}
 
 .marca-first-section{
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    width: 80%;
-    /* margin: 10rem 0 auto auto; */
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+
+.marca-section {
+    border-top: 1px solid grey;
 }
 
 .marca-text {
-    text-align: center;
+    text-align: left;
 }
 
 .marca-first-section img {
-    height: 15vh;
+    border-radius: 5px;
+    max-width: 50%;
+    max-height: 50%;
+   
 }
+
+/* About section */
 .about {
     margin-top: -40px;
+    border-left: 1px solid grey;
+    padding-left: 20px;
 }
 
 .about div h3 p{
@@ -618,36 +660,6 @@ figcaption:hover{
     background-color: #ecedee;
 }
 
-
-/* .social-icon p {
-    font-size: 12px;
-}
-
-.icon-1 a {
-    background-color: red;
-    padding: 10px ;
-    border-radius: 5px;
-}
-
-
-.icon-2 a {
-    background-color: blue;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.icon-3 a {
-    background-color: blue;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.icon-4 a {
-    background-color: red;
-    padding: 10px;
-    border-radius: 5px;
-} */
-
 .alternative-search div {
     display: flex;
 }
@@ -656,10 +668,4 @@ figcaption:hover{
     width: 50px;
 }
 
-/* td .google-name {
-    background-repeat: no-repeat;
-    background-position: -24px 0;
-    background-size: 167px;
-    width: 28px;
-} */
 
