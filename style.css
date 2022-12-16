@@ -6,6 +6,12 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+p span {
+    color: black;
+    font-weight: bold;
 }
 
 svg, img{
@@ -15,6 +21,7 @@ svg, img{
 p {
     font-size: 14px;
     color: #70757a;
+    padding: 8px 0px;
 }
 
 .container {
@@ -396,9 +403,10 @@ main {
 .top-stories {
     display: grid;
     grid-template-columns: auto auto;
-    margin-right: 30px;
+    margin-right: 40px;
     line-height: 24px;
     border-top: 1px solid grey;
+    border-right: 1px solid grey;
 }
 
 .left-col-image {
@@ -413,17 +421,240 @@ main {
     margin-top: 35px;
 }
 
-.about {
-    margin-top: -35px;
+
+.marca-first-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 80%;
+    /* margin: 10rem 0 auto auto; */
 }
 
+.marca-text {
+    text-align: center;
+}
 
+.marca-first-section img {
+    height: 15vh;
+}
+.about {
+    margin-top: -40px;
+}
+
+.about div h3 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .flex-news {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
+.about .about-user {
+    border: 1px solid rgba(128,  126, 126, 0.822);
+    border-radius: 25px;
+    width: 12vw;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.about .about-user:hover {
+    background-color: #ecedee;
+    text-decoration: underline;
+}
+
+.about .about-user span {
+    color: blue;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.about-section a {
+    text-decoration: none;
+    color: blue;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+.about .about-section .feeedback {
+    border: 1px solid grey;
+    width: 20vw;
+}
+.about .shield {
+    color: green;
+    margin:0px 8px;
+}
+
+.feedback .claim {
+    font-weight: 400;
+    color:rgba(128,  126, 126, 0.822);
+}
+
+.about .feedback .flex {
+    color: #70757a;
+    margin-left: 90px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+ .table-section {
+    margin-top: 20px;
+}
+
+.table-section .fa {
+    margin-right: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+table td, th {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: center;
+    text-align: left;
+    font-weight: 300;
+}
+
+table td:hover{
+    text-decoration: underline;
+}
+
+.profiles {
+    margin-top: 20px;
+}
+
+.social-icon-tags {
+    display: flex;
+    padding: 0px 10px;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.social-icon-tags p {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.social-icon-tags:hover{
+    text-decoration: underline;
+}
+
+.profiles .fa {
+    padding: 8px 10px;
+    align-items: center;
+    text-decoration: none;
+    margin: 6px 21px;
+    border-radius: 10px;
+}
+
+.fa-instagram{
+    background:  linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+    color: white;
+}
+.fa-twitter{
+    color: white;
+    background-color: #55acee;
+}
+.fa-facebook{
+    background-color: #3b5998;
+    color: white;
+}
+.fa-youtube-play {
+    background-color: #bb0000;
+    color: white;
+}
+
+.search-images::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+.images-column {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+figcaption:hover{
+    text-decoration: underline;
+}
+
+.alternative-search {
+    margin-top: 20px;
+}
+
+.btn {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 25vw;
+    margin-top: 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #ecedee;
+}
+
+
+/* .social-icon p {
+    font-size: 12px;
+}
+
+.icon-1 a {
+    background-color: red;
+    padding: 10px ;
+    border-radius: 5px;
+}
+
+
+.icon-2 a {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icon-3 a {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icon-4 a {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+} */
+
+.alternative-search div {
+    display: flex;
+}
+
+.search-images {
+    width: 50px;
+}
 
 /* td .google-name {
     background-repeat: no-repeat;
