@@ -432,11 +432,11 @@ main {
 
 .subsection-two,
 .info {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
-.subsection-one button {
-    justify-content: center;
+.subsection-one button{
+        justify-content: center;
         text-align: center;
         border: 1px solid grey;
         padding: 10px;
@@ -444,6 +444,17 @@ main {
         border-radius: 20px;
         outline: none;
         margin-left: 50%;
+}
+
+.subsection-two button {
+        justify-content: center;
+        text-align: center;
+        border: 1px solid grey;
+        padding: 10px;
+        width: 25vw;
+        border-radius: 20px;
+        outline: none;
+        margin-left: 25%;
 }
 
 .marca-section-two {
@@ -465,16 +476,105 @@ main {
     border-top: 1px solid grey;
 }
 
+.marca-text h5 {
+    padding-top: 5px;
+    color:#70757a;
+}
+
+.marca-text h4 {
+    padding-bottom: 5px;
+    color:#70757a;
+}
+
 .marca-text {
     text-align: left;
+}
+
+.logo-1 {
+    color: rgb(1, 4, 27);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-2,
+.logo-5 {
+    color: rgb(75, 4, 75);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-3,
+.logo-7 {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-4,
+.logo-6 {
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .marca-first-section img {
     border-radius: 5px;
     max-width: 50%;
     max-height: 50%;
-   
 }
+.info-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 8px 0px;
+}
+
+.info-flex .info-content,
+.marca-text .info-content {
+    color: blue;
+    font-size: 14px;
+}
+
+.color {
+    color: red;
+}
+
+.info h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    color: #70757a;
+}
+
+.info svg {
+    width: 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.subsection-two .link a{
+    color: blue;
+    text-decoration: none;
+}
+
+.subsection-two svg {
+    width: 20px;
+    align-items: center;
+    margin-bottom: -8px;
+}
+
+.subsection-3{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.subsection-3 .section-1,
+.subsection-3 .section-2 {
+    border: 1px solid grey;
+}
+
+
 
 /* About section */
 .about {
@@ -508,6 +608,11 @@ main {
     text-decoration: underline;
 }
 
+.subsection-one button:hover,
+.subsection-two button:hover {
+    background-color: #ecedee;
+}
+
 .about .about-user span {
     color: blue;
     align-items: center;
@@ -528,7 +633,8 @@ main {
     border: 1px solid grey;
     width: 20vw;
 }
-.about .shield {
+.about .shield,
+.subsection-two .shield {
     color: green;
     margin:0px 8px;
 }
@@ -666,6 +772,23 @@ figcaption:hover{
 
 .search-images {
     width: 50px;
+}
+
+.subsection-two h3 {
+    padding-bottom: 10px;
+}
+.video-1, .video-2, .video-3 {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 15px;
+}
+
+.video-1 video,
+.video-2 video,
+.video-3 video {
+    border-radius: 10px;
 }
 
 
