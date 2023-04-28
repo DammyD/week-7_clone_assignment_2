@@ -45,7 +45,6 @@ p {
 form {
     text-align: center;
     margin-left: -300px;
-    /* margin-right: -200px; */
 }
 
 form .header-content .search-area {
@@ -853,3 +852,10 @@ footer a:hover{
     text-decoration: underline;
 }
 
+
+@media (min-width: 662px) {
+    form {
+        margin-left: 40px;
+    }
+
+}

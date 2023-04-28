@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef9ad24f-26dc-456d-8336-562da59ba158/deploy-status)](https://app.netlify.com/sites/google-demo-1/deploys)
 # Module 7: Google Search Redesign
  You will be working on designing a google search page. Let’s get started.
 
